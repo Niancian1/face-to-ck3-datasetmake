@@ -11,7 +11,7 @@ import threading
 
 class FaceToCK3Tool:
     def __init__(self):
-        self.base_dir = os.path.join(os.getcwd(), "face_to_ck3_dateset")
+        self.base_dir = os.path.join(os.getcwd(), "face_to_ck3_dataset_male_small")
         self.face_dir = os.path.join(self.base_dir, "face")
         self.dna_dir = os.path.join(self.base_dir, "dna")
         
